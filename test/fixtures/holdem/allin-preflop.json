@@ -172,6 +172,15 @@
       }
     },
     {
+      "player": "held",
+      "type": "collect",
+      "amount": 5868,
+      "metadata": {
+        "lineno": 25,
+        "raw": "held collected 5868 from side pot"
+      }
+    },
+    {
       "player": "Fischersito",
       "type": "show",
       "card1": "2c",
@@ -180,6 +189,15 @@
       "metadata": {
         "lineno": 26,
         "raw": "Fischersito: shows [2c Ad] (a pair of Deuces)"
+      }
+    },
+    {
+      "player": "held",
+      "type": "collect",
+      "amount": 10475,
+      "metadata": {
+        "lineno": 27,
+        "raw": "held collected 10475 from main pot"
       }
     }
   ],
