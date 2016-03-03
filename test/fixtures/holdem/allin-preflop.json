@@ -1,0 +1,242 @@
+{
+  "seats": [
+    {
+      "seatno": 1,
+      "player": "Fischersito",
+      "chips": 3475,
+      "metadata": {
+        "lineno": 2,
+        "raw": "Seat 1: Fischersito (3475 in chips)"
+      }
+    },
+    {
+      "seatno": 3,
+      "player": "Irisha2",
+      "chips": 24314,
+      "metadata": {
+        "lineno": 3,
+        "raw": "Seat 3: Irisha2 (24314 in chips)"
+      }
+    },
+    {
+      "seatno": 4,
+      "player": "DmelloH",
+      "chips": 33302,
+      "metadata": {
+        "lineno": 4,
+        "raw": "Seat 4: DmelloH (33302 in chips)"
+      }
+    },
+    {
+      "seatno": 9,
+      "player": "held",
+      "chips": 6409,
+      "metadata": {
+        "lineno": 5,
+        "raw": "Seat 9: held (6409 in chips)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "player": "Fischersito",
+      "type": "ante",
+      "amount": 50,
+      "metadata": {
+        "lineno": 6,
+        "raw": "Fischersito: posts the ante 50"
+      }
+    },
+    {
+      "player": "Irisha2",
+      "type": "ante",
+      "amount": 50,
+      "metadata": {
+        "lineno": 7,
+        "raw": "Irisha2: posts the ante 50"
+      }
+    },
+    {
+      "player": "DmelloH",
+      "type": "ante",
+      "amount": 50,
+      "metadata": {
+        "lineno": 8,
+        "raw": "DmelloH: posts the ante 50"
+      }
+    },
+    {
+      "player": "held",
+      "type": "ante",
+      "amount": 50,
+      "metadata": {
+        "lineno": 9,
+        "raw": "held: posts the ante 50"
+      }
+    },
+    {
+      "player": "DmelloH",
+      "type": "sb",
+      "amount": 400,
+      "metadata": {
+        "lineno": 10,
+        "raw": "DmelloH: posts small blind 400"
+      }
+    },
+    {
+      "player": "held",
+      "type": "bb",
+      "amount": 800,
+      "metadata": {
+        "lineno": 11,
+        "raw": "held: posts big blind 800"
+      }
+    }
+  ],
+  "preflop": [
+    {
+      "player": "Fischersito",
+      "type": "raise",
+      "amount": 2625,
+      "raiseTo": 3425,
+      "allin": true,
+      "metadata": {
+        "lineno": 14,
+        "raw": "Fischersito: raises 2625 to 3425 and is all-in"
+      }
+    },
+    {
+      "player": "Irisha2",
+      "type": "fold",
+      "metadata": {
+        "lineno": 15,
+        "raw": "Irisha2: folds"
+      }
+    },
+    {
+      "player": "DmelloH",
+      "type": "call",
+      "amount": 3025,
+      "allin": false,
+      "metadata": {
+        "lineno": 16,
+        "raw": "DmelloH: calls 3025"
+      }
+    },
+    {
+      "player": "held",
+      "type": "raise",
+      "amount": 2934,
+      "raiseTo": 6359,
+      "allin": true,
+      "metadata": {
+        "lineno": 17,
+        "raw": "held: raises 2934 to 6359 and is all-in"
+      }
+    },
+    {
+      "player": "DmelloH",
+      "type": "call",
+      "amount": 2934,
+      "allin": false,
+      "metadata": {
+        "lineno": 18,
+        "raw": "DmelloH: calls 2934"
+      }
+    }
+  ],
+  "flop": [],
+  "turn": [],
+  "river": [],
+  "showdown": [
+    {
+      "player": "DmelloH",
+      "type": "show",
+      "card1": "7h",
+      "card2": "7d",
+      "desc": "a pair of Sevens",
+      "metadata": {
+        "lineno": 23,
+        "raw": "DmelloH: shows [7h 7d] (a pair of Sevens)"
+      }
+    },
+    {
+      "player": "held",
+      "type": "show",
+      "card1": "Qd",
+      "card2": "Qs",
+      "desc": "a pair of Queens",
+      "metadata": {
+        "lineno": 24,
+        "raw": "held: shows [Qd Qs] (a pair of Queens)"
+      }
+    },
+    {
+      "player": "Fischersito",
+      "type": "show",
+      "card1": "2c",
+      "card2": "Ad",
+      "desc": "a pair of Deuces",
+      "metadata": {
+        "lineno": 26,
+        "raw": "Fischersito: shows [2c Ad] (a pair of Deuces)"
+      }
+    }
+  ],
+  "info": {
+    "room": "pokerstars",
+    "handid": "149652059422",
+    "gametype": "tournament",
+    "gameno": "1495192630",
+    "currency": "$",
+    "donation": 0.91,
+    "rake": 0.09,
+    "buyin": 1,
+    "pokertype": "holdem",
+    "limit": "nolimit",
+    "level": "xi ",
+    "sb": 400,
+    "bb": 800,
+    "year": 2016,
+    "month": 3,
+    "day": 1,
+    "hour": 1,
+    "min": 33,
+    "sec": 54,
+    "timezone": "ET",
+    "metadata": {
+      "lineno": 0,
+      "raw": "PokerStars Hand #149652059422: Tournament #1495192630, $0.91+$0.09 USD Hold'em No Limit - Level XI (400/800) - 2016/03/01 1:33:54 ET"
+    },
+    "ante": 50
+  },
+  "table": {
+    "tableno": 3,
+    "maxseats": 9,
+    "button": 3,
+    "metadata": {
+      "lineno": 1,
+      "raw": "Table '1495192630 3' 9-max Seat #3 is the button"
+    }
+  },
+  "hero": "held",
+  "holecards": {
+    "card1": "Qd",
+    "card2": "Qs",
+    "metadata": {
+      "lineno": 13,
+      "raw": "Dealt to held [Qd Qs]"
+    }
+  },
+  "board": {
+    "card1": "8h",
+    "card2": "Kd",
+    "card3": "2s",
+    "card4": "6s",
+    "card5": "4s",
+    "metadata": {
+      "lineno": 31,
+      "raw": "Board [8h Kd 2s 6s 4s]"
+    }
+  }
+}
