@@ -32,8 +32,8 @@ if (!module.parent && typeof window === 'undefined') {
   const path = require('path')
   const hhv_fixtures = path.join(__dirname, '..', 'hhv', 'test', 'fixtures', 'holdem')
 
-  // const name = 'actiononall'
-  const name = 'allin-preflop'
+  const name = 'actiononall'
+  // const name = 'allin-preflop'
 
   const hand = require('./test/fixtures/holdem/' + name + '.json')
   const analyzed = module.exports(hand)

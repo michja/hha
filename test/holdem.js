@@ -48,7 +48,9 @@ test('\naction on all streets', function (t) {
     , sec: 41
     , timezone: 'ET'
     , ante: 50
-    , players: 4 })
+    , players: 4
+    , anyInvested: true
+    , anySawFlop: true })
 
   spok(t, res.table, { $topic: 'table', tableno: 3, maxseats: 9, button: 3 })
   spok(t, res.board,
@@ -73,7 +75,8 @@ test('\naction on all streets', function (t) {
     , postflopOrder: 0
     , pos: 'sb'
     , name: 'DmelloH'
-    , invested: true })
+    , invested: true
+    , sawFlop: false })
 
   spok(t, res.players[1],
     { $topic: 'player 1'
@@ -95,7 +98,8 @@ test('\naction on all streets', function (t) {
     , postflopOrder: 1
     , pos: 'bb'
     , name: 'held'
-    , invested: true })
+    , invested: true
+    , sawFlop: false })
 
   spok(t, res.players[2],
     { $topic: 'player 2'
@@ -130,7 +134,8 @@ test('\naction on all streets', function (t) {
     , pos: 'co'
     , cards: { card1: 'Td', card2: 'Tc' }
     , name: 'Fischersito'
-    , invested: true })
+    , invested: true
+    , sawFlop: true })
 
   spok(t, res.players[3],
     { $topic: 'player 3'
@@ -154,7 +159,8 @@ test('\naction on all streets', function (t) {
     , pos: 'bu'
     , cards: { card1: 'Qs', card2: 'Jh' }
     , name: 'Irisha2'
-    , invested: true })
+    , invested: true
+    , sawFlop: true })
 
   t.end()
 })
@@ -187,7 +193,9 @@ test('\npreflop allin', function (t) {
     , sec: 54
     , timezone: 'ET'
     , ante: 50
-    , players: 4 })
+    , players: 4
+    , anyInvested: true
+    , anySawFlop: false })
 
   spok(t, res.table,
     { $topic: 'table', tableno: 3, maxseats: 9, button: 3 })
@@ -223,7 +231,8 @@ test('\npreflop allin', function (t) {
     , pos: 'sb'
     , cards: { card1: '7h', card2: '7d' }
     , name: 'DmelloH'
-    , invested: true })
+    , invested: true
+    , sawFlop: false })
   spok(t, res.players[1],
     { $topic: 'player 1'
     , seatno: 9
@@ -247,7 +256,8 @@ test('\npreflop allin', function (t) {
     , postflopOrder: 1
     , pos: 'bb'
     , name: 'held'
-    , invested: true })
+    , invested: true
+    , sawFlop: false })
   spok(t, res.players[2],
     { $topic: 'player 2'
     , seatno: 1
@@ -269,7 +279,8 @@ test('\npreflop allin', function (t) {
     , pos: 'co'
     , cards: { card1: 'Ad', card2: '2c' }
     , name: 'Fischersito'
-    , invested: true })
+    , invested: true
+    , sawFlop: false })
   spok(t, res.players[3],
     { $topic: 'player 3'
     , seatno: 3
@@ -291,6 +302,7 @@ test('\npreflop allin', function (t) {
     , postflopOrder: 3
     , pos: 'bu'
     , name: 'Irisha2'
-    , invested: false })
+    , invested: false
+    , sawFlop: false })
   t.end()
 })
