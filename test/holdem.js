@@ -152,7 +152,7 @@ test('\naction on all streets', function (t) {
     , preflopOrder: 1
     , postflopOrder: 3
     , pos: 'bu'
-    , cards: { card1: 'Jh', card2: 'Qs' }
+    , cards: { card1: 'Qs', card2: 'Jh' }
     , name: 'Irisha2'
     , invested: true })
 
@@ -267,7 +267,7 @@ test('\npreflop allin', function (t) {
     , preflopOrder: 0
     , postflopOrder: 2
     , pos: 'co'
-    , cards: { card1: '2c', card2: 'Ad' }
+    , cards: { card1: 'Ad', card2: '2c' }
     , name: 'Fischersito'
     , invested: true })
   spok(t, res.players[3],
