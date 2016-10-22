@@ -18,7 +18,7 @@ function diagnosePositions (players) {
                 p.seatno, pos, p.preflopOrder, p.postflopOrder, p.pos, p.name)
   }
 }
-/* eslint-ensable no-unused-vars */
+/* eslint-enable no-unused-vars */
 
 test('\naction on all streets', function (t) {
   t.pass('original HH for reference: https://github.com/thlorenz/hhp/blob/7ab748013ff7b2f762497abbd55f04d25d387701/test/fixtures/holdem/pokerstars/actiononall.txt')

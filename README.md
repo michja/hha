@@ -79,6 +79,67 @@ Type
 </dd>
 </dl>
 </dd>
+<dt>
+<h4 class="name" id="hhr::script"><span class="type-signature"></span>hhr::script<span class="signature">(data)</span><span class="type-signature"> &rarr; {object}</span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>Scripts what happened in a hand into a actions script array.
+This array can be read top down to replay the hand.</p>
+<p>The players and info fields from the analyzed data are copied over.
+Each action includes the index at which the player that's executing
+the action can be found in the players array.</p>
+<p>Structure of returned object:</p>
+<pre><code>info: object containing hand info
+table: object containing info about the table like total seats
+board: object cards on the board
+players: array of all players at the table including all info about their stacks
+actions:
+preflop  : array of preflop actions
+flop     : array of flop actions
+turn     : array of turn actions
+river    : array of river actions
+showdown : array of showdown actions</code></pre>
+</div>
+<h5>Parameters:</h5>
+<table class="params">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th class="last">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="name"><code>data</code></td>
+<td class="type">
+<span class="param-type">object</span>
+</td>
+<td class="description last"><p>analyzed hand data @see hhr()</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/hha/blob/master/lib/script.js">lib/script.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/hha/blob/master/lib/script.js#L42">lineno 42</a>
+</li>
+</ul></dd>
+</dl>
+<h5>Returns:</h5>
+<dl>
+<dt>
+Type
+</dt>
+<dd>
+<span class="param-type">object</span>
+</dd>
+</dl>
+</dd>
 </dl>
 </article>
 </section>
