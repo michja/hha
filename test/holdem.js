@@ -7,12 +7,12 @@ const analyze = require('../')
 
 /* eslint-disable no-unused-vars */
 const ocat = require('./util/ocat')
-function inspect (obj, depth) {
+function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true))
 }
-function diagnosePositions (players) {
+function diagnosePositions(players) {
   players.forEach(diagnosePosition)
-  function diagnosePosition (p) {
+  function diagnosePosition(p) {
     const pos = p.sb ? 'sb' : p.bb ? 'bb' : p.bu ? 'bu' : 'na'
     console.log('[ seat: %d, [ %s ], pref: %d, post: %d, %s ] \t(%s)',
                 p.seatno, pos, p.preflopOrder, p.postflopOrder, p.pos, p.name)
@@ -20,7 +20,7 @@ function diagnosePositions (players) {
 }
 /* eslint-enable no-unused-vars */
 
-test('\naction on all streets', function (t) {
+test('\naction on all streets', function(t) {
   t.pass('original HH for reference: https://github.com/thlorenz/hhp/blob/7ab748013ff7b2f762497abbd55f04d25d387701/test/fixtures/holdem/pokerstars/actiononall.txt')
   const hand = require('./fixtures/holdem/actiononall.json')
   const res = analyze(hand)
@@ -57,15 +57,24 @@ test('\naction on all streets', function (t) {
     { $topic: 'board', card1: '3c', card2: 'Jc', card3: '3h', card4: '6h', card5: '3d' })
 
   t.equal(res.players.length, 4, '4 players')
+
   spok(t, res.players[0],
     { $topic: 'player 0'
     , seatno: 4
     , chips: 15451
     , chipsPreflop: 15001
     , chipsFlop: 15001
+    , chipsTurn: 15001
+    , chipsRiver: 15001
+    , chipsShowdown: 15001
     , chipsAfter: 15001
     , m: 11
-    , preflop: [ { type: 'fold', pot: 4600 } ]
+    , preflop:
+      [ { type: 'fold'
+        , pot: 4600
+        , potAfter: 4600
+        , chips: 15001
+        , chipsAfter: 15001 } ]
     , flop: []
     , turn: []
     , river: []
@@ -76,7 +85,8 @@ test('\naction on all streets', function (t) {
     , pos: 'sb'
     , name: 'DmelloH'
     , invested: true
-    , sawFlop: false })
+    , sawFlop: false
+    , sawShowdown: false })
 
   spok(t, res.players[1],
     { $topic: 'player 1'
@@ -84,9 +94,17 @@ test('\naction on all streets', function (t) {
     , chips: 22060
     , chipsPreflop: 21210
     , chipsFlop: 21210
+    , chipsTurn: 21210
+    , chipsRiver: 21210
+    , chipsShowdown: 21210
     , chipsAfter: 21210
     , m: 16
-    , preflop: [ { type: 'fold', pot: 4600 } ]
+    , preflop:
+      [ { type: 'fold'
+        , pot: 4600
+        , potAfter: 4600
+        , chips: 21210
+        , chipsAfter: 21210 } ]
     , flop: []
     , turn: []
     , river: []
@@ -99,7 +117,8 @@ test('\naction on all streets', function (t) {
     , pos: 'bb'
     , name: 'held'
     , invested: true
-    , sawFlop: false })
+    , sawFlop: false
+    , sawShowdown: false })
 
   spok(t, res.players[2],
     { $topic: 'player 2'
@@ -112,22 +131,52 @@ test('\naction on all streets', function (t) {
     , chipsShowdown: 7025
     , chipsAfter: 7025
     , m: 11
-    , preflop: [ { type: 'raise', ratio: 2, allin: false, amount: 1600, pot: 1400 } ]
-    , flop: [ { type: 'bet', ratio: 0.5, allin: false, amount: 2400, pot: 4600 } ]
+    , preflop:
+      [ { type: 'raise'
+        , ratio: 2
+        , allin: false
+        , amount: 1600
+        , pot: 1400
+        , potAfter: 3000
+        , chips: 15825
+        , chipsAfter: 14225 } ]
+    , flop:
+      [ { type: 'bet'
+        , ratio: 0.5
+        , allin: false
+        , amount: 2400
+        , pot: 4600
+        , potAfter: 7000
+        , chips: 14225
+        , chipsAfter: 11825 } ]
     , turn:
-      [ { type: 'check', pot: 9400 }
+      [ { type: 'check'
+        , pot: 9400
+        , potAfter: 9400
+        , chips: 11825
+        , chipsAfter: 11825 }
       , { type: 'call'
         , ratio: 0.1
         , allin: false
         , amount: 1600
-        , pot: 11000 } ]
+        , pot: 11000
+        , potAfter: 12600
+        , chips: 11825
+        , chipsAfter: 10225 } ]
     , river:
-      [ { type: 'check', pot: 12600 }
+      [ { type: 'check'
+        , pot: 12600
+        , potAfter: 12600
+        , chips: 10225
+        , chipsAfter: 10225 }
       , { type: 'call'
         , ratio: 0.2
         , allin: false
         , amount: 3200
-        , pot: 15800 } ]
+        , pot: 15800
+        , potAfter: 19000
+        , chips: 10225
+        , chipsAfter: 7025 } ]
     , showdown: []
     , preflopOrder: 0
     , postflopOrder: 2
@@ -135,7 +184,8 @@ test('\naction on all streets', function (t) {
     , cards: { card1: 'Td', card2: 'Tc' }
     , name: 'Fischersito'
     , invested: true
-    , sawFlop: true })
+    , sawFlop: true
+    , sawShowdown: true })
 
   spok(t, res.players[3],
     { $topic: 'player 3'
@@ -148,11 +198,49 @@ test('\naction on all streets', function (t) {
     , chipsShowdown: 5264
     , chipsAfter: 24264
     , m: 10
-    , preflop: [ { type: 'call', ratio: 0.5, allin: false, amount: 1600, pot: 3000 } ]
-    , flop: [ { type: 'call', ratio: 0.3, allin: false, amount: 2400, pot: 7000 } ]
-    , turn: [ { type: 'bet', ratio: 0.2, allin: false, amount: 1600, pot: 9400 } ]
-    , river: [ { type: 'bet', ratio: 0.3, allin: false, amount: 3200, pot: 12600 } ]
-    , showdown: [ { type: 'collect', ratio: 1, winall: true, amount: 19000 } ]
+    , preflop:
+      [ { type: 'call'
+        , ratio: 0.5
+        , allin: false
+        , amount: 1600
+        , pot: 3000
+        , potAfter: 4600
+        , chips: 14064
+        , chipsAfter: 12464 } ]
+    , flop:
+      [ { type: 'call'
+        , ratio: 0.3
+        , allin: false
+        , amount: 2400
+        , pot: 7000
+        , potAfter: 9400
+        , chips: 12464
+        , chipsAfter: 10064 } ]
+    , turn:
+      [ { type: 'bet'
+        , ratio: 0.2
+        , allin: false
+        , amount: 1600
+        , pot: 9400
+        , potAfter: 11000
+        , chips: 10064
+        , chipsAfter: 8464 } ]
+    , river:
+      [ { type: 'bet'
+        , ratio: 0.3
+        , allin: false
+        , amount: 3200
+        , pot: 12600
+        , potAfter: 15800
+        , chips: 8464
+        , chipsAfter: 5264 } ]
+    , showdown:
+      [ { type: 'collect'
+        , ratio: 1
+        , winall: true
+        , amount: 19000
+        , chips: 5264
+        , chipsAfter: 24264 } ]
     , button: true
     , preflopOrder: 1
     , postflopOrder: 3
@@ -160,12 +248,13 @@ test('\naction on all streets', function (t) {
     , cards: { card1: 'Qs', card2: 'Jh' }
     , name: 'Irisha2'
     , invested: true
-    , sawFlop: true })
+    , sawFlop: true
+    , sawShowdown: true })
 
   t.end()
 })
 
-test('\npreflop allin', function (t) {
+test('\npreflop allin', function(t) {
   t.pass('original HH for reference: https://github.com/thlorenz/hhp/blob/master/test/fixtures/holdem/pokerstars/allin-preflop.txt')
   const hand = require('./fixtures/holdem/allin-preflop.json')
   const res = analyze(hand)
@@ -215,12 +304,22 @@ test('\npreflop allin', function (t) {
     , chipsAfter: 26893
     , m: 24
     , preflop:
-      [ { type: 'call', ratio: 0.6, allin: false, amount: 3025, pot: 4825 }
+      [ { type: 'call'
+        , ratio: 0.6
+        , allin: false
+        , amount: 3025
+        , pot: 4825
+        , potAfter: 7850
+        , chips: 32852
+        , chipsAfter: 29827 }
       , { type: 'call'
         , ratio: 0.2
         , allin: false
         , amount: 2934
-        , pot: 14209 } ]
+        , pot: 14209
+        , potAfter: 17143
+        , chips: 29827
+        , chipsAfter: 26893 } ]
     , flop: []
     , turn: []
     , river: []
@@ -232,7 +331,9 @@ test('\npreflop allin', function (t) {
     , cards: { card1: '7h', card2: '7d' }
     , name: 'DmelloH'
     , invested: true
-    , sawFlop: false })
+    , sawFlop: false
+    , sawShowdown: false })
+
   spok(t, res.players[1],
     { $topic: 'player 1'
     , seatno: 9
@@ -244,11 +345,25 @@ test('\npreflop allin', function (t) {
     , chipsShowdown: 0
     , chipsAfter: 16343
     , m: 5
-    , preflop: [ { type: 'raise', ratio: 1.9, allin: true, amount: 5559, pot: 7850 } ]
+    , preflop:
+      [ { type: 'raise'
+        , ratio: 1.9
+        , allin: true
+        , amount: 5559
+        , pot: 7850
+        , potAfter: 13409
+        , chips: 5559
+        , chipsAfter: 0 } ]
     , flop: []
     , turn: []
     , river: []
-    , showdown: [ { type: 'collect', ratio: 1, winall: true, amount: 16343 } ]
+    , showdown:
+      [ { type: 'collect'
+        , ratio: 1
+        , winall: true
+        , amount: 16343
+        , chips: 0
+        , chipsAfter: 16343 } ]
     , hero: true
     , cards: { card1: 'Qd', card2: 'Qs' }
     , bb: true
@@ -257,7 +372,9 @@ test('\npreflop allin', function (t) {
     , pos: 'bb'
     , name: 'held'
     , invested: true
-    , sawFlop: false })
+    , sawFlop: false
+    , sawShowdown: true })
+
   spok(t, res.players[2],
     { $topic: 'player 2'
     , seatno: 1
@@ -269,7 +386,15 @@ test('\npreflop allin', function (t) {
     , chipsShowdown: 0
     , chipsAfter: 0
     , m: 2
-    , preflop: [ { type: 'raise', ratio: 4.3, allin: true, amount: 3425, pot: 1400 } ]
+    , preflop:
+      [ { type: 'raise'
+        , ratio: 4.3
+        , allin: true
+        , amount: 3425
+        , pot: 1400
+        , potAfter: 4825
+        , chips: 3425
+        , chipsAfter: 0 } ]
     , flop: []
     , turn: []
     , river: []
@@ -280,7 +405,9 @@ test('\npreflop allin', function (t) {
     , cards: { card1: 'Ad', card2: '2c' }
     , name: 'Fischersito'
     , invested: true
-    , sawFlop: false })
+    , sawFlop: false
+    , sawShowdown: false })
+
   spok(t, res.players[3],
     { $topic: 'player 3'
     , seatno: 3
@@ -292,7 +419,12 @@ test('\npreflop allin', function (t) {
     , chipsShowdown: 24264
     , chipsAfter: 24264
     , m: 17
-    , preflop: [ { type: 'fold', pot: 4825 } ]
+    , preflop:
+      [ { type: 'fold'
+        , pot: 4825
+        , potAfter: 4825
+        , chips: 24264
+        , chipsAfter: 24264 } ]
     , flop: []
     , turn: []
     , river: []
@@ -303,6 +435,8 @@ test('\npreflop allin', function (t) {
     , pos: 'bu'
     , name: 'Irisha2'
     , invested: false
-    , sawFlop: false })
+    , sawFlop: false
+    , sawShowdown: false })
+
   t.end()
 })
