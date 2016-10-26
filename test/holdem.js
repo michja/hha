@@ -71,6 +71,7 @@ test('\naction on all streets', function(t) {
     , m: 11
     , preflop:
       [ { type: 'fold'
+        , bet: 2
         , pot: 4600
         , potAfter: 4600
         , chips: 15001
@@ -101,6 +102,7 @@ test('\naction on all streets', function(t) {
     , m: 16
     , preflop:
       [ { type: 'fold'
+        , bet: 2
         , pot: 4600
         , potAfter: 4600
         , chips: 21210
@@ -134,6 +136,7 @@ test('\naction on all streets', function(t) {
     , preflop:
       [ { type: 'raise'
         , ratio: 2
+        , bet: 2
         , allin: false
         , amount: 1600
         , pot: 1400
@@ -143,6 +146,7 @@ test('\naction on all streets', function(t) {
     , flop:
       [ { type: 'bet'
         , ratio: 0.5
+        , bet: 1
         , allin: false
         , amount: 2400
         , pot: 4600
@@ -151,12 +155,14 @@ test('\naction on all streets', function(t) {
         , chipsAfter: 11825 } ]
     , turn:
       [ { type: 'check'
+        , bet: 1
         , pot: 9400
         , potAfter: 9400
         , chips: 11825
         , chipsAfter: 11825 }
       , { type: 'call'
         , ratio: 0.1
+        , bet: 1
         , allin: false
         , amount: 1600
         , pot: 11000
@@ -165,12 +171,14 @@ test('\naction on all streets', function(t) {
         , chipsAfter: 10225 } ]
     , river:
       [ { type: 'check'
+        , bet: 1
         , pot: 12600
         , potAfter: 12600
         , chips: 10225
         , chipsAfter: 10225 }
       , { type: 'call'
         , ratio: 0.2
+        , bet: 1
         , allin: false
         , amount: 3200
         , pot: 15800
@@ -201,6 +209,7 @@ test('\naction on all streets', function(t) {
     , preflop:
       [ { type: 'call'
         , ratio: 0.5
+        , bet: 2
         , allin: false
         , amount: 1600
         , pot: 3000
@@ -210,6 +219,7 @@ test('\naction on all streets', function(t) {
     , flop:
       [ { type: 'call'
         , ratio: 0.3
+        , bet: 1
         , allin: false
         , amount: 2400
         , pot: 7000
@@ -219,6 +229,7 @@ test('\naction on all streets', function(t) {
     , turn:
       [ { type: 'bet'
         , ratio: 0.2
+        , bet: 1
         , allin: false
         , amount: 1600
         , pot: 9400
@@ -228,6 +239,7 @@ test('\naction on all streets', function(t) {
     , river:
       [ { type: 'bet'
         , ratio: 0.3
+        , bet: 1
         , allin: false
         , amount: 3200
         , pot: 12600
@@ -306,6 +318,7 @@ test('\npreflop allin', function(t) {
     , preflop:
       [ { type: 'call'
         , ratio: 0.6
+        , bet: 2
         , allin: false
         , amount: 3025
         , pot: 4825
@@ -314,6 +327,7 @@ test('\npreflop allin', function(t) {
         , chipsAfter: 29827 }
       , { type: 'call'
         , ratio: 0.2
+        , bet: 3
         , allin: false
         , amount: 2934
         , pot: 14209
@@ -348,6 +362,7 @@ test('\npreflop allin', function(t) {
     , preflop:
       [ { type: 'raise'
         , ratio: 1.9
+        , bet: 3
         , allin: true
         , amount: 5559
         , pot: 7850
@@ -389,6 +404,7 @@ test('\npreflop allin', function(t) {
     , preflop:
       [ { type: 'raise'
         , ratio: 4.3
+        , bet: 2
         , allin: true
         , amount: 3425
         , pot: 1400
@@ -421,6 +437,7 @@ test('\npreflop allin', function(t) {
     , m: 17
     , preflop:
       [ { type: 'fold'
+        , bet: 2
         , pot: 4825
         , potAfter: 4825
         , chips: 24264

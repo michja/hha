@@ -47,6 +47,7 @@ test('\nscript action on all streets', function(t) {
     [ { action:
         { type: 'raise'
         , ratio: 2
+        , bet: 2
         , allin: false
         , amount: 1600
         , pot: 1400
@@ -57,6 +58,7 @@ test('\nscript action on all streets', function(t) {
     , { action:
         { type: 'call'
         , ratio: 0.5
+        , bet: 2
         , allin: false
         , amount: 1600
         , pot: 3000
@@ -66,6 +68,7 @@ test('\nscript action on all streets', function(t) {
      , playerIndex: 3 }
     , { action:
         { type: 'fold'
+        , bet: 2
         , pot: 4600
         , potAfter: 4600
         , chips: 15001
@@ -73,6 +76,7 @@ test('\nscript action on all streets', function(t) {
      , playerIndex: 0 }
     , { action:
         { type: 'fold'
+        , bet: 2
         , pot: 4600
         , potAfter: 4600
         , chips: 21210
@@ -83,6 +87,7 @@ test('\nscript action on all streets', function(t) {
     [ { action:
         { type: 'bet'
         , ratio: 0.5
+        , bet: 1
         , allin: false
         , amount: 2400
         , pot: 4600
@@ -93,6 +98,7 @@ test('\nscript action on all streets', function(t) {
     , { action:
         { type: 'call'
         , ratio: 0.3
+        , bet: 1
         , allin: false
         , amount: 2400
         , pot: 7000
@@ -104,6 +110,7 @@ test('\nscript action on all streets', function(t) {
   spok(t, res.actions.turn,
     [ { action:
         { type: 'check'
+        , bet: 1
         , pot: 9400
         , potAfter: 9400
         , chips: 11825
@@ -112,6 +119,7 @@ test('\nscript action on all streets', function(t) {
     , { action:
         { type: 'bet'
         , ratio: 0.2
+        , bet: 1
         , allin: false
         , amount: 1600
         , pot: 9400
@@ -122,6 +130,7 @@ test('\nscript action on all streets', function(t) {
     , { action:
         { type: 'call'
         , ratio: 0.1
+        , bet: 1
         , allin: false
         , amount: 1600
         , pot: 11000
@@ -133,6 +142,7 @@ test('\nscript action on all streets', function(t) {
   spok(t, res.actions.river,
     [ { action:
         { type: 'check'
+        , bet: 1
         , pot: 12600
         , potAfter: 12600
         , chips: 10225
@@ -141,6 +151,7 @@ test('\nscript action on all streets', function(t) {
     , { action:
         { type: 'bet'
         , ratio: 0.3
+        , bet: 1
         , allin: false
         , amount: 3200
         , pot: 12600
@@ -151,6 +162,7 @@ test('\nscript action on all streets', function(t) {
     , { action:
         { type: 'call'
         , ratio: 0.2
+        , bet: 1
         , allin: false
         , amount: 3200
         , pot: 15800
