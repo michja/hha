@@ -84,6 +84,7 @@ test('\naction on all streets', function(t) {
     , preflopOrder: 2
     , postflopOrder: 0
     , pos: 'sb'
+    , exactPos: 'sb'
     , name: 'DmelloH'
     , invested: true
     , sawFlop: false
@@ -117,6 +118,7 @@ test('\naction on all streets', function(t) {
     , preflopOrder: 3
     , postflopOrder: 1
     , pos: 'bb'
+    , exactPos: 'bb'
     , name: 'held'
     , invested: true
     , sawFlop: false
@@ -189,6 +191,7 @@ test('\naction on all streets', function(t) {
     , preflopOrder: 0
     , postflopOrder: 2
     , pos: 'co'
+    , exactPos: 'co'
     , cards: { card1: 'Td', card2: 'Tc' }
     , name: 'Fischersito'
     , invested: true
@@ -257,6 +260,7 @@ test('\naction on all streets', function(t) {
     , preflopOrder: 1
     , postflopOrder: 3
     , pos: 'bu'
+    , exactPos: 'bu'
     , cards: { card1: 'Qs', card2: 'Jh' }
     , name: 'Irisha2'
     , invested: true
@@ -342,6 +346,7 @@ test('\npreflop allin', function(t) {
     , preflopOrder: 2
     , postflopOrder: 0
     , pos: 'sb'
+    , exactPos: 'sb'
     , cards: { card1: '7h', card2: '7d' }
     , name: 'DmelloH'
     , invested: true
@@ -385,6 +390,7 @@ test('\npreflop allin', function(t) {
     , preflopOrder: 3
     , postflopOrder: 1
     , pos: 'bb'
+    , exactPos: 'bb'
     , name: 'held'
     , invested: true
     , sawFlop: false
@@ -418,6 +424,7 @@ test('\npreflop allin', function(t) {
     , preflopOrder: 0
     , postflopOrder: 2
     , pos: 'co'
+    , exactPos: 'co'
     , cards: { card1: 'Ad', card2: '2c' }
     , name: 'Fischersito'
     , invested: true
@@ -450,6 +457,7 @@ test('\npreflop allin', function(t) {
     , preflopOrder: 1
     , postflopOrder: 3
     , pos: 'bu'
+    , exactPos: 'bu'
     , name: 'Irisha2'
     , invested: false
     , sawFlop: false
