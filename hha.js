@@ -23,4 +23,5 @@ exports = module.exports = function analyze(hand) {
   if (hand.info.pokertype === 'holdem') return analyzeHoldem(hand)
 }
 
-exports.script = require('./lib/script')
+exports.script     = require('./lib/script')
+exports.storyboard = require('./lib/storyboard')

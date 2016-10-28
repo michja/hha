@@ -80,6 +80,46 @@ Type
 </dl>
 </dd>
 <dt>
+<h4 class="name" id="hha:storyboard"><span class="type-signature"></span>hha:storyboard<span class="signature">(script)</span><span class="type-signature"></span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>Takes a script of actions and calculates the states for each.
+Adds pointers to the state at the beginning of each script.</p>
+<p>This is useful if you try to jump around in the hand and reset
+the state of the table.</p>
+</div>
+<h5>Parameters:</h5>
+<table class="params">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th class="last">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="name"><code>script</code></td>
+<td class="type">
+<span class="param-type">Object</span>
+</td>
+<td class="description last"><p>created via @see hha:script</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/hha/blob/master/lib/storyboard.js">lib/storyboard.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/hha/blob/master/lib/storyboard.js#L3">lineno 3</a>
+</li>
+</ul></dd>
+</dl>
+</dd>
+<dt>
 <h4 class="name" id="hhr::script"><span class="type-signature"></span>hhr::script<span class="signature">(data)</span><span class="type-signature"> &rarr; {object}</span></h4>
 </dt>
 <dd>
@@ -126,7 +166,7 @@ showdown : array of showdown actions</code></pre>
 <li>
 <a href="https://github.com/thlorenz/hha/blob/master/lib/script.js">lib/script.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/hha/blob/master/lib/script.js#L42">lineno 42</a>
+<a href="https://github.com/thlorenz/hha/blob/master/lib/script.js#L50">lineno 50</a>
 </li>
 </ul></dd>
 </dl>
