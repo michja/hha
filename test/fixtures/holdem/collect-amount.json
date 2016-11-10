@@ -1,0 +1,310 @@
+{
+  "seats": [
+    {
+      "seatno": 1,
+      "player": "reole22",
+      "chips": 4936,
+      "metadata": {
+        "lineno": 2,
+        "raw": "Seat 1: reole22 (4936 in chips)"
+      }
+    },
+    {
+      "seatno": 2,
+      "player": "Edward360201",
+      "chips": 1767,
+      "metadata": {
+        "lineno": 3,
+        "raw": "Seat 2: Edward360201 (1767 in chips)"
+      }
+    },
+    {
+      "seatno": 3,
+      "player": "renniweg",
+      "chips": 1674,
+      "metadata": {
+        "lineno": 4,
+        "raw": "Seat 3: renniweg (1674 in chips)"
+      }
+    },
+    {
+      "seatno": 4,
+      "player": "p_coxinha",
+      "chips": 1184,
+      "metadata": {
+        "lineno": 5,
+        "raw": "Seat 4: p_coxinha (1184 in chips)"
+      }
+    },
+    {
+      "seatno": 6,
+      "player": "kingscamalot",
+      "chips": 1487,
+      "metadata": {
+        "lineno": 6,
+        "raw": "Seat 6: kingscamalot (1487 in chips)"
+      }
+    },
+    {
+      "seatno": 8,
+      "player": "trips1126",
+      "chips": 2100,
+      "metadata": {
+        "lineno": 7,
+        "raw": "Seat 8: trips1126 (2100 in chips)"
+      }
+    },
+    {
+      "seatno": 9,
+      "player": "grmpjb",
+      "chips": 6314,
+      "metadata": {
+        "lineno": 8,
+        "raw": "Seat 9: grmpjb (6314 in chips)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "player": "reole22",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 9,
+        "raw": "reole22: posts the ante 6"
+      }
+    },
+    {
+      "player": "Edward360201",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 10,
+        "raw": "Edward360201: posts the ante 6"
+      }
+    },
+    {
+      "player": "renniweg",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 11,
+        "raw": "renniweg: posts the ante 6"
+      }
+    },
+    {
+      "player": "p_coxinha",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 12,
+        "raw": "p_coxinha: posts the ante 6"
+      }
+    },
+    {
+      "player": "kingscamalot",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 13,
+        "raw": "kingscamalot: posts the ante 6"
+      }
+    },
+    {
+      "player": "trips1126",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 14,
+        "raw": "trips1126: posts the ante 6"
+      }
+    },
+    {
+      "player": "grmpjb",
+      "type": "ante",
+      "amount": 6,
+      "metadata": {
+        "lineno": 15,
+        "raw": "grmpjb: posts the ante 6"
+      }
+    },
+    {
+      "player": "renniweg",
+      "type": "sb",
+      "amount": 25,
+      "metadata": {
+        "lineno": 16,
+        "raw": "renniweg: posts small blind 25"
+      }
+    },
+    {
+      "player": "p_coxinha",
+      "type": "bb",
+      "amount": 50,
+      "metadata": {
+        "lineno": 17,
+        "raw": "p_coxinha: posts big blind 50"
+      }
+    }
+  ],
+  "preflop": [
+    {
+      "player": "kingscamalot",
+      "type": "raise",
+      "amount": 50,
+      "raiseTo": 100,
+      "allin": false,
+      "metadata": {
+        "lineno": 20,
+        "raw": "kingscamalot: raises 50 to 100"
+      }
+    },
+    {
+      "player": "trips1126",
+      "type": "fold",
+      "metadata": {
+        "lineno": 21,
+        "raw": "trips1126: folds"
+      }
+    },
+    {
+      "player": "grmpjb",
+      "type": "fold",
+      "metadata": {
+        "lineno": 22,
+        "raw": "grmpjb: folds"
+      }
+    },
+    {
+      "player": "reole22",
+      "type": "fold",
+      "metadata": {
+        "lineno": 23,
+        "raw": "reole22: folds"
+      }
+    },
+    {
+      "player": "Edward360201",
+      "type": "fold",
+      "metadata": {
+        "lineno": 24,
+        "raw": "Edward360201: folds"
+      }
+    },
+    {
+      "player": "renniweg",
+      "type": "fold",
+      "metadata": {
+        "lineno": 25,
+        "raw": "renniweg: folds"
+      }
+    },
+    {
+      "player": "p_coxinha",
+      "type": "call",
+      "amount": 50,
+      "allin": false,
+      "metadata": {
+        "lineno": 26,
+        "raw": "p_coxinha: calls 50"
+      }
+    }
+  ],
+  "flop": [
+    {
+      "player": "p_coxinha",
+      "type": "bet",
+      "amount": 112,
+      "allin": false,
+      "metadata": {
+        "lineno": 28,
+        "raw": "p_coxinha: bets 112"
+      }
+    },
+    {
+      "player": "kingscamalot",
+      "type": "raise",
+      "amount": 1269,
+      "raiseTo": 1381,
+      "allin": true,
+      "metadata": {
+        "lineno": 29,
+        "raw": "kingscamalot: raises 1269 to 1381 and is all-in"
+      }
+    },
+    {
+      "player": "p_coxinha",
+      "type": "fold",
+      "metadata": {
+        "lineno": 30,
+        "raw": "p_coxinha: folds"
+      }
+    },
+    {
+      "player": "kingscamalot",
+      "type": "collect",
+      "amount": 491,
+      "metadata": {
+        "lineno": 32,
+        "raw": "kingscamalot collected 491 from pot"
+      }
+    }
+  ],
+  "turn": [],
+  "river": [],
+  "showdown": [],
+  "info": {
+    "room": "pokerstars",
+    "handid": "159582275913",
+    "gametype": "tournament",
+    "gameno": "1689829479",
+    "currency": "$",
+    "donation": 3.19,
+    "rake": 0.31,
+    "buyin": 3.5,
+    "pokertype": "holdem",
+    "limit": "nolimit",
+    "level": "iii ",
+    "sb": 25,
+    "bb": 50,
+    "year": 2016,
+    "month": 10,
+    "day": 6,
+    "hour": 23,
+    "min": 18,
+    "sec": 29,
+    "timezone": "ET",
+    "metadata": {
+      "lineno": 0,
+      "raw": "PokerStars Hand #159582275913: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level III (25/50) - 2016/10/06 23:18:29 ET"
+    },
+    "ante": 6
+  },
+  "table": {
+    "tableno": 2,
+    "maxseats": 9,
+    "button": 2,
+    "metadata": {
+      "lineno": 1,
+      "raw": "Table '1689829479 2' 9-max Seat #2 is the button"
+    }
+  },
+  "hero": "renniweg",
+  "holecards": {
+    "card1": "9c",
+    "card2": "Qc",
+    "metadata": {
+      "lineno": 19,
+      "raw": "Dealt to renniweg [9c Qc]"
+    }
+  },
+  "board": {
+    "card1": "5c",
+    "card2": "2h",
+    "card3": "2s",
+    "metadata": {
+      "lineno": 36,
+      "raw": "Board [5c 2h 2s]"
+    }
+  }
+}
