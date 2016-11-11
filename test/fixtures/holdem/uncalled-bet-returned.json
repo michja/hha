@@ -1,0 +1,449 @@
+{
+  "seats": [
+    {
+      "seatno": 1,
+      "player": "GuiTrettel",
+      "chips": 2240,
+      "metadata": {
+        "lineno": 2,
+        "raw": "Seat 1: GuiTrettel (2240 in chips)"
+      }
+    },
+    {
+      "seatno": 2,
+      "player": "Raven_0866",
+      "chips": 4071,
+      "metadata": {
+        "lineno": 3,
+        "raw": "Seat 2: Raven_0866 (4071 in chips)"
+      }
+    },
+    {
+      "seatno": 3,
+      "player": "bobalex007",
+      "chips": 4073,
+      "metadata": {
+        "lineno": 4,
+        "raw": "Seat 3: bobalex007 (4073 in chips)"
+      }
+    },
+    {
+      "seatno": 4,
+      "player": "held",
+      "chips": 1915,
+      "metadata": {
+        "lineno": 5,
+        "raw": "Seat 4: held (1915 in chips)"
+      }
+    },
+    {
+      "seatno": 5,
+      "player": "Potekh",
+      "chips": 1260,
+      "metadata": {
+        "lineno": 6,
+        "raw": "Seat 5: Potekh (1260 in chips)"
+      }
+    },
+    {
+      "seatno": 6,
+      "player": "msilveira11",
+      "chips": 2402,
+      "metadata": {
+        "lineno": 7,
+        "raw": "Seat 6: msilveira11 (2402 in chips)"
+      }
+    },
+    {
+      "seatno": 7,
+      "player": "direbolical1",
+      "chips": 5589,
+      "metadata": {
+        "lineno": 8,
+        "raw": "Seat 7: direbolical1 (5589 in chips)"
+      }
+    },
+    {
+      "seatno": 8,
+      "player": "Scorpion333",
+      "chips": 1977,
+      "metadata": {
+        "lineno": 9,
+        "raw": "Seat 8: Scorpion333 (1977 in chips)"
+      }
+    },
+    {
+      "seatno": 9,
+      "player": "Siwy Johnny",
+      "chips": 1350,
+      "metadata": {
+        "lineno": 10,
+        "raw": "Seat 9: Siwy Johnny (1350 in chips)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "player": "GuiTrettel",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 11,
+        "raw": "GuiTrettel: posts the ante 10"
+      }
+    },
+    {
+      "player": "Raven_0866",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 12,
+        "raw": "Raven_0866: posts the ante 10"
+      }
+    },
+    {
+      "player": "bobalex007",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 13,
+        "raw": "bobalex007: posts the ante 10"
+      }
+    },
+    {
+      "player": "held",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 14,
+        "raw": "held: posts the ante 10"
+      }
+    },
+    {
+      "player": "Potekh",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 15,
+        "raw": "Potekh: posts the ante 10"
+      }
+    },
+    {
+      "player": "msilveira11",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 16,
+        "raw": "msilveira11: posts the ante 10"
+      }
+    },
+    {
+      "player": "direbolical1",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 17,
+        "raw": "direbolical1: posts the ante 10"
+      }
+    },
+    {
+      "player": "Scorpion333",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 18,
+        "raw": "Scorpion333: posts the ante 10"
+      }
+    },
+    {
+      "player": "Siwy Johnny",
+      "type": "ante",
+      "amount": 10,
+      "metadata": {
+        "lineno": 19,
+        "raw": "Siwy Johnny: posts the ante 10"
+      }
+    },
+    {
+      "player": "GuiTrettel",
+      "type": "sb",
+      "amount": 40,
+      "metadata": {
+        "lineno": 20,
+        "raw": "GuiTrettel: posts small blind 40"
+      }
+    },
+    {
+      "player": "Raven_0866",
+      "type": "bb",
+      "amount": 80,
+      "metadata": {
+        "lineno": 21,
+        "raw": "Raven_0866: posts big blind 80"
+      }
+    }
+  ],
+  "preflop": [
+    {
+      "player": "bobalex007",
+      "type": "call",
+      "amount": 80,
+      "allin": false,
+      "metadata": {
+        "lineno": 24,
+        "raw": "bobalex007: calls 80"
+      }
+    },
+    {
+      "player": "held",
+      "type": "raise",
+      "amount": 97,
+      "raiseTo": 177,
+      "allin": false,
+      "metadata": {
+        "lineno": 25,
+        "raw": "held: raises 97 to 177"
+      }
+    },
+    {
+      "player": "Potekh",
+      "type": "fold",
+      "metadata": {
+        "lineno": 26,
+        "raw": "Potekh: folds"
+      }
+    },
+    {
+      "player": "msilveira11",
+      "type": "fold",
+      "metadata": {
+        "lineno": 27,
+        "raw": "msilveira11: folds"
+      }
+    },
+    {
+      "player": "direbolical1",
+      "type": "fold",
+      "metadata": {
+        "lineno": 28,
+        "raw": "direbolical1: folds"
+      }
+    },
+    {
+      "player": "Scorpion333",
+      "type": "fold",
+      "metadata": {
+        "lineno": 29,
+        "raw": "Scorpion333: folds"
+      }
+    },
+    {
+      "player": "Siwy Johnny",
+      "type": "fold",
+      "metadata": {
+        "lineno": 30,
+        "raw": "Siwy Johnny: folds"
+      }
+    },
+    {
+      "player": "GuiTrettel",
+      "type": "raise",
+      "amount": 223,
+      "raiseTo": 400,
+      "allin": false,
+      "metadata": {
+        "lineno": 31,
+        "raw": "GuiTrettel: raises 223 to 400"
+      }
+    },
+    {
+      "player": "Raven_0866",
+      "type": "fold",
+      "metadata": {
+        "lineno": 32,
+        "raw": "Raven_0866: folds"
+      }
+    },
+    {
+      "player": "bobalex007",
+      "type": "fold",
+      "metadata": {
+        "lineno": 33,
+        "raw": "bobalex007: folds"
+      }
+    },
+    {
+      "player": "held",
+      "type": "call",
+      "amount": 223,
+      "allin": false,
+      "metadata": {
+        "lineno": 34,
+        "raw": "held: calls 223"
+      }
+    }
+  ],
+  "flop": [
+    {
+      "player": "GuiTrettel",
+      "type": "bet",
+      "amount": 400,
+      "allin": false,
+      "metadata": {
+        "lineno": 36,
+        "raw": "GuiTrettel: bets 400"
+      }
+    },
+    {
+      "player": "held",
+      "type": "raise",
+      "amount": 720,
+      "raiseTo": 1120,
+      "allin": false,
+      "metadata": {
+        "lineno": 37,
+        "raw": "held: raises 720 to 1120"
+      }
+    },
+    {
+      "player": "GuiTrettel",
+      "type": "call",
+      "amount": 720,
+      "allin": false,
+      "metadata": {
+        "lineno": 38,
+        "raw": "GuiTrettel: calls 720"
+      }
+    }
+  ],
+  "turn": [
+    {
+      "player": "GuiTrettel",
+      "type": "bet",
+      "amount": 710,
+      "allin": true,
+      "metadata": {
+        "lineno": 40,
+        "raw": "GuiTrettel: bets 710 and is all-in"
+      }
+    },
+    {
+      "player": "held",
+      "type": "call",
+      "amount": 385,
+      "allin": true,
+      "metadata": {
+        "lineno": 41,
+        "raw": "held: calls 385 and is all-in"
+      }
+    },
+    {
+      "player": "GuiTrettel",
+      "type": "bet-returned",
+      "amount": 325,
+      "metadata": {
+        "lineno": 42,
+        "raw": "Uncalled bet (325) returned to GuiTrettel"
+      }
+    }
+  ],
+  "river": [],
+  "showdown": [
+    {
+      "player": "GuiTrettel",
+      "type": "show",
+      "card1": "Ad",
+      "card2": "Qc",
+      "desc": "a pair of Fours",
+      "metadata": {
+        "lineno": 45,
+        "raw": "GuiTrettel: shows [Ad Qc] (a pair of Fours)"
+      }
+    },
+    {
+      "player": "held",
+      "type": "show",
+      "card1": "Qs",
+      "card2": "Ah",
+      "desc": "a pair of Fours",
+      "metadata": {
+        "lineno": 46,
+        "raw": "held: shows [Qs Ah] (a pair of Fours)"
+      }
+    },
+    {
+      "player": "GuiTrettel",
+      "type": "collect",
+      "amount": 2030,
+      "metadata": {
+        "lineno": 47,
+        "raw": "GuiTrettel collected 2030 from pot"
+      }
+    },
+    {
+      "player": "held",
+      "type": "collect",
+      "amount": 2030,
+      "metadata": {
+        "lineno": 48,
+        "raw": "held collected 2030 from pot"
+      }
+    }
+  ],
+  "info": {
+    "room": "pokerstars",
+    "handid": "159582406766",
+    "gametype": "tournament",
+    "gameno": "1689829479",
+    "currency": "$",
+    "donation": 3.19,
+    "rake": 0.31,
+    "buyin": 3.5,
+    "pokertype": "holdem",
+    "limit": "nolimit",
+    "level": "iv ",
+    "sb": 40,
+    "bb": 80,
+    "year": 2016,
+    "month": 10,
+    "day": 6,
+    "hour": 23,
+    "min": 26,
+    "sec": 9,
+    "timezone": "ET",
+    "metadata": {
+      "lineno": 0,
+      "raw": "PokerStars Hand #159582406766: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level IV (40/80) - 2016/10/06 23:26:09 ET"
+    },
+    "ante": 10
+  },
+  "table": {
+    "tableno": 4,
+    "maxseats": 9,
+    "button": 9,
+    "metadata": {
+      "lineno": 1,
+      "raw": "Table '1689829479 4' 9-max Seat #9 is the button"
+    }
+  },
+  "hero": "held",
+  "holecards": {
+    "card1": "Qs",
+    "card2": "Ah",
+    "metadata": {
+      "lineno": 23,
+      "raw": "Dealt to held [Qs Ah]"
+    }
+  },
+  "board": {
+    "card1": "4c",
+    "card2": "Kd",
+    "card3": "7s",
+    "card4": "4d",
+    "card5": "9c",
+    "metadata": {
+      "lineno": 51,
+      "raw": "Board [4c Kd 7s 4d 9c]"
+    }
+  }
+}

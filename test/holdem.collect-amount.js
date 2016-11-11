@@ -26,7 +26,7 @@ test('\nplayer pushes out other player on flop and collects $491 from pot', func
      , chipsAfter: 0
      , bet: 2 }
     , { type: 'collect'
-     , ratio: 3.6
+     , ratio: 0.3
      , allin: false
      , amount: 491
      , pot: 1760

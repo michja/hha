@@ -20,11 +20,11 @@
     },
     {
       "seatno": 3,
-      "player": "renniweg",
+      "player": "held",
       "chips": 1674,
       "metadata": {
         "lineno": 4,
-        "raw": "Seat 3: renniweg (1674 in chips)"
+        "raw": "Seat 3: held (1674 in chips)"
       }
     },
     {
@@ -84,12 +84,12 @@
       }
     },
     {
-      "player": "renniweg",
+      "player": "held",
       "type": "ante",
       "amount": 6,
       "metadata": {
         "lineno": 11,
-        "raw": "renniweg: posts the ante 6"
+        "raw": "held: posts the ante 6"
       }
     },
     {
@@ -129,12 +129,12 @@
       }
     },
     {
-      "player": "renniweg",
+      "player": "held",
       "type": "sb",
       "amount": 25,
       "metadata": {
         "lineno": 16,
-        "raw": "renniweg: posts small blind 25"
+        "raw": "held: posts small blind 25"
       }
     },
     {
@@ -192,11 +192,11 @@
       }
     },
     {
-      "player": "renniweg",
+      "player": "held",
       "type": "fold",
       "metadata": {
         "lineno": 25,
-        "raw": "renniweg: folds"
+        "raw": "held: folds"
       }
     },
     {
@@ -289,13 +289,13 @@
       "raw": "Table '1689829479 2' 9-max Seat #2 is the button"
     }
   },
-  "hero": "renniweg",
+  "hero": "held",
   "holecards": {
     "card1": "9c",
     "card2": "Qc",
     "metadata": {
       "lineno": 19,
-      "raw": "Dealt to renniweg [9c Qc]"
+      "raw": "Dealt to held [9c Qc]"
     }
   },
   "board": {
