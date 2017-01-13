@@ -25,3 +25,5 @@ exports = module.exports = function analyze(hand) {
 
 exports.script     = require('./lib/script')
 exports.storyboard = require('./lib/storyboard')
+
+exports.strategicPositions = require('./lib/strategic-positions').list
