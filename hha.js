@@ -27,3 +27,21 @@ exports.script     = require('./lib/script')
 exports.storyboard = require('./lib/storyboard')
 
 exports.strategicPositions = require('./lib/strategic-positions').list
+
+function wasActive(x) {
+  return x.preflop[0] && x.preflop[0].type !== 'fold'
+}
+
+/**
+ * Filters all players who didn't act in the hand or just folded.
+ *
+ * @name filterInactives
+ * @function
+ * @param {Array.<Object>} players all players in the hand
+ * @return {Array.<Object>} all players that were active in the hand
+ */
+exports.filterInactives = function filterInactives(players) {
+  if (players == null) return []
+  return players.filter(wasActive)
+}
+
