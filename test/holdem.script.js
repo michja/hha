@@ -96,6 +96,7 @@ test('\nscript action on all streets', function(t) {
         , chipsRiver: 10225
         , chipsShowdown: 7025
         , chipsAfter: 7025
+        , chipsInFront: 0
         , m: 11
         , preflopOrder: 0
         , postflopOrder: 2
@@ -114,6 +115,7 @@ test('\nscript action on all streets', function(t) {
         , chipsRiver: 8464
         , chipsShowdown: 5264
         , chipsAfter: 24264
+        , chipsInFront: 0
         , m: 10
         , button: true
         , preflopOrder: 1
