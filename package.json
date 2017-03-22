@@ -16,7 +16,7 @@
   "devDependencies": {
     "docme": "~0.3.0",
     "ocat": "~0.1.0",
-    "spok": "~0.3.2",
+    "spok": "~0.7.0",
     "tape": "~4.5.0"
   },
   "keywords": [],
