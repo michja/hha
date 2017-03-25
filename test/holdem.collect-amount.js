@@ -30,9 +30,9 @@ test('\nplayer pushes out other player on flop and collects $491 from pot', func
      , allin: false
      , amount: 491
      , pot: 1760
-     , potAfter: 0
+     , potAfter: 1269
      , chips: 0
-     , chipsAfter: 1760
+     , chipsAfter: 491
      , bet: 2 } ])
   t.end()
 })
