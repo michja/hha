@@ -8,15 +8,15 @@ Analyzes holdem hands.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 - [Installation](#installation)
 - [API](#api)
   - [analyze](#analyze)
   - [filterInactives](#filterinactives)
-  - [](#)
-  - [](#-1)
-  - [](#-2)
+  - [hha.script](#hhascript)
+  - [hha.storyboard](#hhastoryboard)
+  - [hha.summary](#hhasummary)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -56,7 +56,7 @@ Filters all players who didn't act in the hand or just folded.
 
 Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>** all players that were active in the hand
 
-### 
+### hha.script
 
 Scripts what happened in a hand into a actions script array.
 This array can be read top down to replay the hand.
@@ -84,7 +84,7 @@ Structure of returned object:
 
 Returns **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
 
-### 
+### hha.storyboard
 
 Takes a script of actions and calculates the states for each.
 Adds pointers to the state at the beginning of each script.
@@ -96,7 +96,7 @@ the state of the table.
 
 -   `script` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** created via @see hha:script
 
-### 
+### hha.summary
 
 Converts a hand that was analyzed and then scripted to a summary representation.
 
