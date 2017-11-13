@@ -8,16 +8,15 @@ Analyzes holdem hands.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
--   [Installation](#installation)
--   [API](#api)
-    -   [analyze](#analyze)
-    -   [filterInactives](#filterinactives)
-    -   [](#)
-    -   [](#-1)
-    -   [](#-2)
--   [License](#license)
+- [Installation](#installation)
+- [API](#api)
+  - [analyze](#analyze)
+  - [filterInactives](#filterinactives)
+  - [hha.script](#hhascript)
+  - [hha.storyboard](#hhastoryboard)
+  - [hha.summary](#hhasummary)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

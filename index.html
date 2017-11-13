@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>  | Documentation</title>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <link href='assets/bass.css' type='text/css' rel='stylesheet' />
+  <link href='assets/style.css' type='text/css' rel='stylesheet' />
+  <link href='assets/github.css' type='text/css' rel='stylesheet' />
+</head>
+<body class='documentation'>
+  <div class='max-width-4 mx-auto'>
+    <div class='clearfix md-mxn2'>
+      <div class='fixed xs-hide fix-3 overflow-auto max-height-100'>
+        <div class='py1 px2'>
+          <h3 class='mb0 no-anchor'></h3>
+          <div class='mb1'><code></code></div>
+          <input
+            placeholder='Filter'
+            id='filter-input'
+            class='col12 block input'
+            type='text' />
+          <div id='toc'>
+            <ul class='list-reset h5 py1-ul'>
+              
+                
+                <li><a
+                  href='#analyze'
+                  class="">
+                  analyze
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#filterinactives'
+                  class="">
+                  filterInactives
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#hhascript'
+                  class="">
+                  hha.script
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#hhastoryboard'
+                  class="">
+                  hha.storyboard
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#hhasummary'
+                  class="">
+                  hha.summary
+                  
+                </a>
+                
+                </li>
+              
+            </ul>
+          </div>
+          <div class='mt1 h6 quiet'>
+            <a href='http://documentation.js.org/reading-documentation.html'>Need help reading this?</a>
+          </div>
+        </div>
+      </div>
+      <div class='fix-margin-3'>
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='analyze'>
+      analyze
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Analyzes a given PokerHand which has been parsed by the HandHistory Parser hhp.
+Relative player positions are calculated, i.e. cutoff, button, etc.
+Players are included in order of action on flop.</p>
+<p>The analyzed hand then can be visualized by <a href="https://github.com/thlorenz/hhv">hhv</a>.</p>
+<p>For an example of an analyzed hand please view <a href="https://github.com/thlorenz/hhv/blob/master/test/fixtures/holdem/actiononall.json">json output of an analyzed
+hand</a>.</p>
+
+
+  <div class='pre p1 fill-light mt0'>analyze(hand: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a>): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></div>
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>hand</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a>)</code>
+	    hand history as parsed by 
+<a href="https://github.com/thlorenz/hhp">hhp</a>
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></code>:
+        the analyzed hand
+
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='filterinactives'>
+      filterInactives
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Filters all players who didn't act in the hand or just folded.</p>
+
+
+  <div class='pre p1 fill-light mt0'>filterInactives(players: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>>): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>></div>
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>players</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>>)</code>
+	    all players in the hand
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>></code>:
+        all players that were active in the hand
+
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='hhascript'>
+      hha.script
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Scripts what happened in a hand into a actions script array.
+This array can be read top down to replay the hand.</p>
+<p>The players and info fields from the analyzed data are copied over.
+Each action includes the index at which the player that's executing
+the action can be found in the players array.</p>
+<p>Structure of returned object:</p>
+<pre><code>info: object containing hand info
+table: object containing info about the table like total seats
+board: object cards on the board
+players: array of all players at the table including all info about their stacks
+actions:
+ preflop  : array of preflop actions
+ flop     : array of flop actions
+ turn     : array of turn actions
+ river    : array of river actions
+ showdown : array of showdown actions
+</code></pre>
+
+
+  <div class='pre p1 fill-light mt0'>hha.script(data: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a>): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></div>
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>data</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a>)</code>
+	    analyzed hand data @see hha()
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='hhastoryboard'>
+      hha.storyboard
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Takes a script of actions and calculates the states for each.
+Adds pointers to the state at the beginning of each script.</p>
+<p>This is useful if you try to jump around in the hand and reset
+the state of the table.</p>
+
+
+  <div class='pre p1 fill-light mt0'>hha.storyboard(script: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</div>
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>script</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</code>
+	    created via @see hha:script
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='hhasummary'>
+      hha.summary
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Converts a hand that was analyzed and then scripted to a summary representation.</p>
+<p>The summary has the following properties:</p>
+<ul>
+<li>header: contains game info, like room, pokertype, blinds, etc.</li>
+<li>seats: lists the seats of the players including pos, chips and hero indicators</li>
+<li>chipsStackRatio: hero's M for tournaments, his BBs for cash games</li>
+<li>preflopSummary: hero's cards and position</li>
+<li>preflopActions: action types + amounts of each player by position</li>
+<li>flopSummary: pot at flop, board and playersInvolved</li>
+<li>flopActions: same as preflopActions</li>
+<li>turnSummary: pot at turn, turn card and playersInvolved</li>
+<li>turnActions: same as preflopActions</li>
+<li>riverSummary: pot at river, river card and playersInvolved</li>
+<li>riverActions: same as preflopActions</li>
+<li>totalPot: total money in the pot</li>
+<li>spoilers: players whos cards are known by position</li>
+</ul>
+
+
+  <div class='pre p1 fill-light mt0'>hha.summary(script: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></div>
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>script</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></code>:
+        the hand summarized
+
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+      </div>
+    </div>
+  </div>
+  <script src='assets/anchor.js'></script>
+  <script src='assets/site.js'></script>
+</body>
+</html>
