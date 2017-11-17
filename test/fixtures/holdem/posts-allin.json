@@ -1,0 +1,507 @@
+{
+  "seats": [
+    {
+      "seatno": 1,
+      "player": "norgas69",
+      "chips": 14,
+      "metadata": {
+        "lineno": 2,
+        "raw": "Seat 1: norgas69 (14 in chips)"
+      }
+    },
+    {
+      "seatno": 3,
+      "player": "hero",
+      "chips": 1229,
+      "metadata": {
+        "lineno": 3,
+        "raw": "Seat 3: hero (1229 in chips)"
+      }
+    },
+    {
+      "seatno": 4,
+      "player": "p_coxinha",
+      "chips": 1144,
+      "metadata": {
+        "lineno": 4,
+        "raw": "Seat 4: p_coxinha (1144 in chips)"
+      }
+    },
+    {
+      "seatno": 5,
+      "player": "MasterQkiu",
+      "chips": 2641,
+      "metadata": {
+        "lineno": 5,
+        "raw": "Seat 5: MasterQkiu (2641 in chips)"
+      }
+    },
+    {
+      "seatno": 6,
+      "player": "Oterbach",
+      "chips": 1825,
+      "metadata": {
+        "lineno": 6,
+        "raw": "Seat 6: Oterbach (1825 in chips)"
+      }
+    },
+    {
+      "seatno": 7,
+      "player": "SilveradoSP",
+      "chips": 1389,
+      "metadata": {
+        "lineno": 7,
+        "raw": "Seat 7: SilveradoSP (1389 in chips)"
+      }
+    },
+    {
+      "seatno": 8,
+      "player": "trips1126",
+      "chips": 2310,
+      "metadata": {
+        "lineno": 8,
+        "raw": "Seat 8: trips1126 (2310 in chips)"
+      }
+    },
+    {
+      "seatno": 9,
+      "player": "grmpjb",
+      "chips": 1379,
+      "metadata": {
+        "lineno": 9,
+        "raw": "Seat 9: grmpjb (1379 in chips)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "player": "norgas69",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 10,
+        "raw": "norgas69: posts the ante 3"
+      }
+    },
+    {
+      "player": "hero",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 11,
+        "raw": "hero: posts the ante 3"
+      }
+    },
+    {
+      "player": "p_coxinha",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 12,
+        "raw": "p_coxinha: posts the ante 3"
+      }
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 13,
+        "raw": "MasterQkiu: posts the ante 3"
+      }
+    },
+    {
+      "player": "Oterbach",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 14,
+        "raw": "Oterbach: posts the ante 3"
+      }
+    },
+    {
+      "player": "SilveradoSP",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 15,
+        "raw": "SilveradoSP: posts the ante 3"
+      }
+    },
+    {
+      "player": "trips1126",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 16,
+        "raw": "trips1126: posts the ante 3"
+      }
+    },
+    {
+      "player": "grmpjb",
+      "type": "ante",
+      "amount": 3,
+      "metadata": {
+        "lineno": 17,
+        "raw": "grmpjb: posts the ante 3"
+      }
+    },
+    {
+      "player": "grmpjb",
+      "type": "sb",
+      "amount": 10,
+      "metadata": {
+        "lineno": 18,
+        "raw": "grmpjb: posts small blind 10"
+      }
+    }
+  ],
+  "preflop": [
+    {
+      "player": "hero",
+      "type": "fold",
+      "metadata": {
+        "lineno": 22,
+        "raw": "hero: folds"
+      }
+    },
+    {
+      "player": "p_coxinha",
+      "type": "fold",
+      "metadata": {
+        "lineno": 23,
+        "raw": "p_coxinha: folds"
+      }
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "call",
+      "amount": 20,
+      "allin": false,
+      "metadata": {
+        "lineno": 24,
+        "raw": "MasterQkiu: calls 20"
+      }
+    },
+    {
+      "player": "Oterbach",
+      "type": "fold",
+      "metadata": {
+        "lineno": 25,
+        "raw": "Oterbach: folds"
+      }
+    },
+    {
+      "player": "SilveradoSP",
+      "type": "fold",
+      "metadata": {
+        "lineno": 26,
+        "raw": "SilveradoSP: folds"
+      }
+    },
+    {
+      "player": "trips1126",
+      "type": "raise",
+      "amount": 160,
+      "raiseTo": 180,
+      "allin": false,
+      "metadata": {
+        "lineno": 27,
+        "raw": "trips1126: raises 160 to 180"
+      }
+    },
+    {
+      "player": "grmpjb",
+      "type": "fold",
+      "metadata": {
+        "lineno": 28,
+        "raw": "grmpjb: folds"
+      }
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "call",
+      "amount": 160,
+      "allin": false,
+      "metadata": {
+        "lineno": 29,
+        "raw": "MasterQkiu: calls 160"
+      }
+    }
+  ],
+  "flop": [
+    {
+      "player": "MasterQkiu",
+      "type": "check",
+      "metadata": {
+        "lineno": 31,
+        "raw": "MasterQkiu: checks"
+      }
+    },
+    {
+      "player": "trips1126",
+      "type": "bet",
+      "amount": 300,
+      "allin": false,
+      "metadata": {
+        "lineno": 32,
+        "raw": "trips1126: bets 300"
+      }
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "raise",
+      "amount": 2158,
+      "raiseTo": 2458,
+      "allin": true,
+      "metadata": {
+        "lineno": 33,
+        "raw": "MasterQkiu: raises 2158 to 2458 and is all-in"
+      }
+    },
+    {
+      "player": "trips1126",
+      "type": "fold",
+      "metadata": {
+        "lineno": 34,
+        "raw": "trips1126: folds"
+      }
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "bet-returned",
+      "amount": 2158,
+      "metadata": {
+        "lineno": 35,
+        "raw": "Uncalled bet (2158) returned to MasterQkiu"
+      }
+    }
+  ],
+  "turn": [],
+  "river": [],
+  "showdown": [
+    {
+      "player": "MasterQkiu",
+      "type": "show",
+      "card1": "Kd",
+      "card2": "Ts",
+      "metadata": {
+        "lineno": 39,
+        "raw": "MasterQkiu: shows [Kd Ts] (two pair, Kings and Tens)"
+      },
+      "desc": "two pair, Kings and Tens"
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "collect",
+      "amount": 938,
+      "pot": "side",
+      "metadata": {
+        "lineno": 40,
+        "raw": "MasterQkiu collected 938 from side pot"
+      }
+    },
+    {
+      "player": "norgas69",
+      "type": "show",
+      "card1": "9h",
+      "card2": "As",
+      "metadata": {
+        "lineno": 41,
+        "raw": "norgas69: shows [9h As] (high card Ace)"
+      },
+      "desc": "high card Ace"
+    },
+    {
+      "player": "MasterQkiu",
+      "type": "collect",
+      "amount": 67,
+      "pot": "main",
+      "metadata": {
+        "lineno": 42,
+        "raw": "MasterQkiu collected 67 from main pot"
+      }
+    },
+    {
+      "player": "norgas69",
+      "type": "finish",
+      "place": 42,
+      "amount": null,
+      "metadata": {
+        "lineno": 43,
+        "raw": "norgas69 finished the tournament in 42nd place"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "type": "pot",
+      "single": false,
+      "amount": 1005,
+      "main": 67,
+      "side": 938,
+      "metadata": {
+        "lineno": 45,
+        "raw": "Total pot 1005 Main pot 67. Side pot 938. | Rake 0"
+      },
+      "rake": 0
+    },
+    {
+      "type": "showed",
+      "won": false,
+      "seatno": 1,
+      "player": "norgas69",
+      "position": "bb",
+      "card1": "9h",
+      "card2": "As",
+      "description": "high card Ace",
+      "metadata": {
+        "lineno": 47,
+        "raw": "Seat 1: norgas69 (big blind) showed [9h As] and lost with high card Ace"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 3,
+      "player": "hero",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 48,
+        "raw": "Seat 3: hero folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 4,
+      "player": "p_coxinha",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 49,
+        "raw": "Seat 4: p_coxinha folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "showed",
+      "won": true,
+      "seatno": 5,
+      "player": "MasterQkiu",
+      "position": "",
+      "card1": "Kd",
+      "card2": "Ts",
+      "amount": 1005,
+      "description": "two pair, Kings and Tens",
+      "metadata": {
+        "lineno": 50,
+        "raw": "Seat 5: MasterQkiu showed [Kd Ts] and won (1005) with two pair, Kings and Tens"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 6,
+      "player": "Oterbach",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 51,
+        "raw": "Seat 6: Oterbach folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 7,
+      "player": "SilveradoSP",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 52,
+        "raw": "Seat 7: SilveradoSP folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 8,
+      "player": "trips1126",
+      "position": "bu",
+      "street": "flop",
+      "bet": true,
+      "metadata": {
+        "lineno": 53,
+        "raw": "Seat 8: trips1126 (button) folded on the Flop"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 9,
+      "player": "grmpjb",
+      "position": "sb",
+      "street": "preflop",
+      "bet": true,
+      "metadata": {
+        "lineno": 54,
+        "raw": "Seat 9: grmpjb (small blind) folded before Flop"
+      }
+    }
+  ],
+  "info": {
+    "room": "pokerstars",
+    "handid": "159581842724",
+    "currency": "$",
+    "pokertype": "holdem",
+    "limit": "nolimit",
+    "sb": 10,
+    "bb": 20,
+    "year": 2016,
+    "month": 10,
+    "day": 6,
+    "hour": 22,
+    "min": 53,
+    "sec": 35,
+    "timezone": "ET",
+    "gameno": "1689829479",
+    "level": "i",
+    "gametype": "tournament",
+    "metadata": {
+      "lineno": 0,
+      "raw": "PokerStars Hand #159581842724: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2016/10/06 22:53:35 ET"
+    },
+    "donation": 3.19,
+    "rake": 0.31,
+    "buyin": 3.5,
+    "ante": 3
+  },
+  "table": {
+    "tableno": 2,
+    "maxseats": 9,
+    "button": 8,
+    "metadata": {
+      "lineno": 1,
+      "raw": "Table '1689829479 2' 9-max Seat #8 is the button"
+    }
+  },
+  "hero": "hero",
+  "holecards": {
+    "card1": "4c",
+    "card2": "Qd",
+    "metadata": {
+      "lineno": 21,
+      "raw": "Dealt to hero [4c Qd]"
+    }
+  },
+  "board": {
+    "card1": "5s",
+    "card2": "Kh",
+    "card3": "Th",
+    "card4": "2h",
+    "card5": "3s",
+    "metadata": {
+      "lineno": 46,
+      "raw": "Board [5s Kh Th 2h 3s]"
+    }
+  }
+}
