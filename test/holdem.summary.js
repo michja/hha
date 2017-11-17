@@ -28,7 +28,7 @@ test('\nscript action on all streets', function(t) {
       , bb: 800
       , ante: 50
       , level: 'xi'
-      , maxseate: 9 }
+      , maxseats: 9 }
     , seats:
       [ { pos: 'SB', chipsBB: 19.3, chipsAmount: 15451, hero: false }
       , { pos: 'BB', chipsBB: 27.6, chipsAmount: 22060, hero: true, m: 16 }
