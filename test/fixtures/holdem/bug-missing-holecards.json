@@ -1,0 +1,457 @@
+{
+  "board": {
+    "card1": "8c",
+    "card2": "2c",
+    "card3": "6h",
+    "card4": "6s",
+    "card5": "Tc",
+    "metadata": {
+      "lineno": 43,
+      "raw": "Board [8c 2c 6h 6s Tc]"
+    }
+  },
+  "flop": [
+    {
+      "metadata": {
+        "lineno": 25,
+        "raw": "Raven_0866: checks"
+      },
+      "player": "Raven_0866",
+      "type": "check"
+    },
+    {
+      "allin": false,
+      "amount": 160,
+      "metadata": {
+        "lineno": 26,
+        "raw": "bobalex007: bets 160"
+      },
+      "player": "bobalex007",
+      "type": "bet"
+    },
+    {
+      "allin": false,
+      "amount": 395,
+      "metadata": {
+        "lineno": 27,
+        "raw": "renniweg: raises 395 to 555"
+      },
+      "player": "renniweg",
+      "raiseTo": 555,
+      "type": "raise"
+    },
+    {
+      "metadata": {
+        "lineno": 28,
+        "raw": "Raven_0866: folds"
+      },
+      "player": "Raven_0866",
+      "type": "fold"
+    },
+    {
+      "allin": false,
+      "amount": 395,
+      "metadata": {
+        "lineno": 29,
+        "raw": "bobalex007: calls 395"
+      },
+      "player": "bobalex007",
+      "type": "call"
+    }
+  ],
+  "hero": "renniweg",
+  "holecards": {
+    "card1": "9c",
+    "card2": "9s",
+    "metadata": {
+      "lineno": 17,
+      "raw": "Dealt to renniweg [9c 9s]"
+    }
+  },
+  "info": {
+    "ante": 20,
+    "bb": 160,
+    "buyin": 3.5,
+    "currency": "$",
+    "day": 6,
+    "donation": 3.19,
+    "gameno": "1689829479",
+    "gametype": "tournament",
+    "handid": "159582685926",
+    "hour": 23,
+    "level": "vi",
+    "limit": "nolimit",
+    "metadata": {
+      "lineno": 0,
+      "raw": "PokerStars Hand #159582685926: Tournament #1689829479, $3.19+$0.31 USD Hold'em No Limit - Level VI (80/160) - 2016/10/06 23:43:04 ET"
+    },
+    "min": 43,
+    "month": 10,
+    "pokertype": "holdem",
+    "rake": 0.31,
+    "room": "pokerstars",
+    "sb": 80,
+    "sec": 4,
+    "timezone": "ET",
+    "year": 2016
+  },
+  "posts": [
+    {
+      "amount": 20,
+      "metadata": {
+        "lineno": 8,
+        "raw": "Raven_0866: posts the ante 20"
+      },
+      "player": "Raven_0866",
+      "type": "ante"
+    },
+    {
+      "amount": 20,
+      "metadata": {
+        "lineno": 9,
+        "raw": "bobalex007: posts the ante 20"
+      },
+      "player": "bobalex007",
+      "type": "ante"
+    },
+    {
+      "amount": 20,
+      "metadata": {
+        "lineno": 10,
+        "raw": "renniweg: posts the ante 20"
+      },
+      "player": "renniweg",
+      "type": "ante"
+    },
+    {
+      "amount": 20,
+      "metadata": {
+        "lineno": 11,
+        "raw": "direbolical1: posts the ante 20"
+      },
+      "player": "direbolical1",
+      "type": "ante"
+    },
+    {
+      "amount": 20,
+      "metadata": {
+        "lineno": 12,
+        "raw": "Scorpion333: posts the ante 20"
+      },
+      "player": "Scorpion333",
+      "type": "ante"
+    },
+    {
+      "amount": 20,
+      "metadata": {
+        "lineno": 13,
+        "raw": "Siwy Johnny: posts the ante 20"
+      },
+      "player": "Siwy Johnny",
+      "type": "ante"
+    },
+    {
+      "amount": 80,
+      "metadata": {
+        "lineno": 14,
+        "raw": "Siwy Johnny: posts small blind 80"
+      },
+      "player": "Siwy Johnny",
+      "type": "sb"
+    },
+    {
+      "amount": 160,
+      "metadata": {
+        "lineno": 15,
+        "raw": "Raven_0866: posts big blind 160"
+      },
+      "player": "Raven_0866",
+      "type": "bb"
+    }
+  ],
+  "preflop": [
+    {
+      "allin": false,
+      "amount": 160,
+      "metadata": {
+        "lineno": 18,
+        "raw": "bobalex007: calls 160"
+      },
+      "player": "bobalex007",
+      "type": "call"
+    },
+    {
+      "allin": false,
+      "amount": 160,
+      "metadata": {
+        "lineno": 19,
+        "raw": "renniweg: calls 160"
+      },
+      "player": "renniweg",
+      "type": "call"
+    },
+    {
+      "metadata": {
+        "lineno": 20,
+        "raw": "direbolical1: folds"
+      },
+      "player": "direbolical1",
+      "type": "fold"
+    },
+    {
+      "metadata": {
+        "lineno": 21,
+        "raw": "Scorpion333: folds"
+      },
+      "player": "Scorpion333",
+      "type": "fold"
+    },
+    {
+      "metadata": {
+        "lineno": 22,
+        "raw": "Siwy Johnny: folds"
+      },
+      "player": "Siwy Johnny",
+      "type": "fold"
+    },
+    {
+      "metadata": {
+        "lineno": 23,
+        "raw": "Raven_0866: checks"
+      },
+      "player": "Raven_0866",
+      "type": "check"
+    }
+  ],
+  "river": [
+    {
+      "metadata": {
+        "lineno": 35,
+        "raw": "bobalex007: checks"
+      },
+      "player": "bobalex007",
+      "type": "check"
+    },
+    {
+      "metadata": {
+        "lineno": 36,
+        "raw": "renniweg: checks"
+      },
+      "player": "renniweg",
+      "type": "check"
+    }
+  ],
+  "seats": [
+    {
+      "chips": 5131,
+      "metadata": {
+        "lineno": 2,
+        "raw": "Seat 2: Raven_0866 (5131 in chips)"
+      },
+      "player": "Raven_0866",
+      "seatno": 2
+    },
+    {
+      "chips": 4068,
+      "metadata": {
+        "lineno": 3,
+        "raw": "Seat 3: bobalex007 (4068 in chips)"
+      },
+      "player": "bobalex007",
+      "seatno": 3
+    },
+    {
+      "chips": 5628,
+      "metadata": {
+        "lineno": 4,
+        "raw": "Seat 4: renniweg (5628 in chips)"
+      },
+      "player": "renniweg",
+      "seatno": 4
+    },
+    {
+      "chips": 2456,
+      "metadata": {
+        "lineno": 5,
+        "raw": "Seat 7: direbolical1 (2456 in chips)"
+      },
+      "player": "direbolical1",
+      "seatno": 7
+    },
+    {
+      "chips": 1632,
+      "metadata": {
+        "lineno": 6,
+        "raw": "Seat 8: Scorpion333 (1632 in chips)"
+      },
+      "player": "Scorpion333",
+      "seatno": 8
+    },
+    {
+      "chips": 5962,
+      "metadata": {
+        "lineno": 7,
+        "raw": "Seat 9: Siwy Johnny (5962 in chips)"
+      },
+      "player": "Siwy Johnny",
+      "seatno": 9
+    }
+  ],
+  "showdown": [
+    {
+      "card1": "Js",
+      "card2": "Jh",
+      "desc": "two pair, Jacks and Sixes",
+      "metadata": {
+        "lineno": 38,
+        "raw": "bobalex007: shows [Js Jh] (two pair, Jacks and Sixes)"
+      },
+      "player": "bobalex007",
+      "type": "show"
+    },
+    {
+      "metadata": {
+        "lineno": 39,
+        "raw": "renniweg: mucks hand"
+      },
+      "player": "renniweg",
+      "type": "muck"
+    },
+    {
+      "amount": 4012,
+      "metadata": {
+        "lineno": 40,
+        "raw": "bobalex007 collected 4012 from pot"
+      },
+      "player": "bobalex007",
+      "pot": null,
+      "type": "collect"
+    }
+  ],
+  "summary": [
+    {
+      "amount": 4012,
+      "metadata": {
+        "lineno": 42,
+        "raw": "Total pot 4012 | Rake 0"
+      },
+      "rake": 0,
+      "single": true,
+      "type": "pot"
+    },
+    {
+      "bet": true,
+      "metadata": {
+        "lineno": 44,
+        "raw": "Seat 2: Raven_0866 (big blind) folded on the Flop"
+      },
+      "player": "Raven_0866",
+      "position": "bb",
+      "seatno": 2,
+      "street": "flop",
+      "type": "folded"
+    },
+    {
+      "amount": 4012,
+      "card1": "Js",
+      "card2": "Jh",
+      "description": "two pair, Jacks and Sixes",
+      "metadata": {
+        "lineno": 45,
+        "raw": "Seat 3: bobalex007 showed [Js Jh] and won (4012) with two pair, Jacks and Sixes"
+      },
+      "player": "bobalex007",
+      "position": "",
+      "seatno": 3,
+      "type": "showed",
+      "won": true
+    },
+    {
+      "card1": "9c",
+      "card2": "9s",
+      "metadata": {
+        "lineno": 46,
+        "raw": "Seat 4: renniweg mucked [9c 9s]"
+      },
+      "player": "renniweg",
+      "position": "",
+      "seatno": 4,
+      "type": "muck"
+    },
+    {
+      "bet": false,
+      "metadata": {
+        "lineno": 47,
+        "raw": "Seat 7: direbolical1 folded before Flop (didn't bet)"
+      },
+      "player": "direbolical1",
+      "position": "",
+      "seatno": 7,
+      "street": "preflop",
+      "type": "folded"
+    },
+    {
+      "bet": false,
+      "metadata": {
+        "lineno": 48,
+        "raw": "Seat 8: Scorpion333 (button) folded before Flop (didn't bet)"
+      },
+      "player": "Scorpion333",
+      "position": "bu",
+      "seatno": 8,
+      "street": "preflop",
+      "type": "folded"
+    },
+    {
+      "bet": true,
+      "metadata": {
+        "lineno": 49,
+        "raw": "Seat 9: Siwy Johnny (small blind) folded before Flop"
+      },
+      "player": "Siwy Johnny",
+      "position": "sb",
+      "seatno": 9,
+      "street": "preflop",
+      "type": "folded"
+    }
+  ],
+  "table": {
+    "button": 8,
+    "maxseats": 9,
+    "metadata": {
+      "lineno": 1,
+      "raw": "Table '1689829479 4' 9-max Seat #8 is the button"
+    },
+    "tableno": 4
+  },
+  "turn": [
+    {
+      "metadata": {
+        "lineno": 31,
+        "raw": "bobalex007: checks"
+      },
+      "player": "bobalex007",
+      "type": "check"
+    },
+    {
+      "allin": false,
+      "amount": 1111,
+      "metadata": {
+        "lineno": 32,
+        "raw": "renniweg: bets 1111"
+      },
+      "player": "renniweg",
+      "type": "bet"
+    },
+    {
+      "allin": false,
+      "amount": 1111,
+      "metadata": {
+        "lineno": 33,
+        "raw": "bobalex007: calls 1111"
+      },
+      "player": "bobalex007",
+      "type": "call"
+    }
+  ]
+}
