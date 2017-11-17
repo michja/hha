@@ -37,7 +37,7 @@ test('\naction on all streets', function(t) {
       , buyin: 1
       , pokertype: 'holdem'
       , limit: 'nolimit'
-      , level: 'xi '
+      , level: 'xi'
       , sb: 400
       , bb: 800
       , year: 2016
@@ -278,7 +278,7 @@ test('\npreflop allin', function(t) {
       , buyin: 1
       , pokertype: 'holdem'
       , limit: 'nolimit'
-      , level: 'xi '
+      , level: 'xi'
       , sb: 400
       , bb: 800
       , year: 2016
