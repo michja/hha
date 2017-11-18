@@ -1,0 +1,474 @@
+{
+  "seats": [
+    {
+      "seatno": 1,
+      "player": "AAMate",
+      "chips": 1500,
+      "metadata": {
+        "lineno": 2,
+        "raw": "Seat 1: AAMate (1500 in chips)"
+      }
+    },
+    {
+      "seatno": 2,
+      "player": "igrok100",
+      "chips": 1490,
+      "metadata": {
+        "lineno": 3,
+        "raw": "Seat 2: igrok100 (1490 in chips)"
+      }
+    },
+    {
+      "seatno": 3,
+      "player": "renniweg",
+      "chips": 1470,
+      "metadata": {
+        "lineno": 4,
+        "raw": "Seat 3: renniweg (1470 in chips)"
+      }
+    },
+    {
+      "seatno": 4,
+      "player": "topcat9982",
+      "chips": 1480,
+      "metadata": {
+        "lineno": 5,
+        "raw": "Seat 4: topcat9982 (1480 in chips)"
+      }
+    },
+    {
+      "seatno": 5,
+      "player": "robi2909",
+      "chips": 1450,
+      "metadata": {
+        "lineno": 6,
+        "raw": "Seat 5: robi2909 (1450 in chips)"
+      }
+    },
+    {
+      "seatno": 6,
+      "player": "shiftyill",
+      "chips": 1610,
+      "metadata": {
+        "lineno": 7,
+        "raw": "Seat 6: shiftyill (1610 in chips)"
+      }
+    },
+    {
+      "seatno": 7,
+      "player": "rohnet",
+      "chips": 1500,
+      "metadata": {
+        "lineno": 8,
+        "raw": "Seat 7: rohnet (1500 in chips)"
+      }
+    },
+    {
+      "seatno": 8,
+      "player": "moneyblk",
+      "chips": 1500,
+      "metadata": {
+        "lineno": 9,
+        "raw": "Seat 8: moneyblk (1500 in chips)"
+      }
+    },
+    {
+      "seatno": 9,
+      "player": "nuway19",
+      "chips": 1500,
+      "metadata": {
+        "lineno": 10,
+        "raw": "Seat 9: nuway19 (1500 in chips)"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "player": "topcat9982",
+      "type": "sb",
+      "amount": 10,
+      "metadata": {
+        "lineno": 11,
+        "raw": "topcat9982: posts small blind 10"
+      }
+    },
+    {
+      "player": "robi2909",
+      "type": "bb",
+      "amount": 20,
+      "metadata": {
+        "lineno": 12,
+        "raw": "robi2909: posts big blind 20"
+      }
+    }
+  ],
+  "preflop": [
+    {
+      "player": "shiftyill",
+      "type": "fold",
+      "metadata": {
+        "lineno": 15,
+        "raw": "shiftyill: folds"
+      }
+    },
+    {
+      "player": "rohnet",
+      "type": "fold",
+      "metadata": {
+        "lineno": 16,
+        "raw": "rohnet: folds"
+      }
+    },
+    {
+      "player": "moneyblk",
+      "type": "call",
+      "amount": 20,
+      "allin": false,
+      "metadata": {
+        "lineno": 17,
+        "raw": "moneyblk: calls 20"
+      }
+    },
+    {
+      "player": "nuway19",
+      "type": "fold",
+      "metadata": {
+        "lineno": 18,
+        "raw": "nuway19: folds"
+      }
+    },
+    {
+      "player": "AAMate",
+      "type": "fold",
+      "metadata": {
+        "lineno": 19,
+        "raw": "AAMate: folds"
+      }
+    },
+    {
+      "player": "igrok100",
+      "type": "fold",
+      "metadata": {
+        "lineno": 20,
+        "raw": "igrok100: folds"
+      }
+    },
+    {
+      "player": "renniweg",
+      "type": "fold",
+      "metadata": {
+        "lineno": 21,
+        "raw": "renniweg: folds"
+      }
+    },
+    {
+      "player": "topcat9982",
+      "type": "call",
+      "amount": 10,
+      "allin": false,
+      "metadata": {
+        "lineno": 22,
+        "raw": "topcat9982: calls 10"
+      }
+    },
+    {
+      "player": "robi2909",
+      "type": "check",
+      "metadata": {
+        "lineno": 23,
+        "raw": "robi2909: checks"
+      }
+    }
+  ],
+  "flop": [
+    {
+      "player": "topcat9982",
+      "type": "check",
+      "metadata": {
+        "lineno": 25,
+        "raw": "topcat9982: checks"
+      }
+    },
+    {
+      "player": "robi2909",
+      "type": "check",
+      "metadata": {
+        "lineno": 26,
+        "raw": "robi2909: checks"
+      }
+    },
+    {
+      "player": "moneyblk",
+      "type": "check",
+      "metadata": {
+        "lineno": 27,
+        "raw": "moneyblk: checks"
+      }
+    }
+  ],
+  "turn": [
+    {
+      "player": "topcat9982",
+      "type": "check",
+      "metadata": {
+        "lineno": 29,
+        "raw": "topcat9982: checks"
+      }
+    },
+    {
+      "player": "robi2909",
+      "type": "check",
+      "metadata": {
+        "lineno": 30,
+        "raw": "robi2909: checks"
+      }
+    },
+    {
+      "player": "moneyblk",
+      "type": "check",
+      "metadata": {
+        "lineno": 31,
+        "raw": "moneyblk: checks"
+      }
+    }
+  ],
+  "river": [
+    {
+      "player": "topcat9982",
+      "type": "bet",
+      "amount": 20,
+      "allin": false,
+      "metadata": {
+        "lineno": 33,
+        "raw": "topcat9982: bets 20"
+      }
+    },
+    {
+      "player": "robi2909",
+      "type": "call",
+      "amount": 20,
+      "allin": false,
+      "metadata": {
+        "lineno": 34,
+        "raw": "robi2909: calls 20"
+      }
+    },
+    {
+      "player": "moneyblk",
+      "type": "fold",
+      "metadata": {
+        "lineno": 35,
+        "raw": "moneyblk: folds"
+      }
+    }
+  ],
+  "showdown": [
+    {
+      "player": "topcat9982",
+      "type": "show",
+      "card1": "As",
+      "card2": "Th",
+      "metadata": {
+        "lineno": 37,
+        "raw": "topcat9982: shows [As Th] (a straight, Ten to Ace)"
+      },
+      "desc": "a straight, Ten to Ace"
+    },
+    {
+      "player": "robi2909",
+      "type": "muck",
+      "metadata": {
+        "lineno": 38,
+        "raw": "robi2909: mucks hand"
+      }
+    },
+    {
+      "player": "topcat9982",
+      "type": "collect",
+      "amount": 100,
+      "pot": null,
+      "metadata": {
+        "lineno": 39,
+        "raw": "topcat9982 collected 100 from pot"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "type": "pot",
+      "single": true,
+      "amount": 100,
+      "metadata": {
+        "lineno": 41,
+        "raw": "Total pot 100 | Rake 0"
+      },
+      "rake": 0
+    },
+    {
+      "type": "folded",
+      "seatno": 1,
+      "player": "AAMate",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 43,
+        "raw": "Seat 1: AAMate folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 2,
+      "player": "igrok100",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 44,
+        "raw": "Seat 2: igrok100 folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 3,
+      "player": "renniweg",
+      "position": "bu",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 45,
+        "raw": "Seat 3: renniweg (button) folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "showed",
+      "won": true,
+      "seatno": 4,
+      "player": "topcat9982",
+      "position": "sb",
+      "card1": "As",
+      "card2": "Th",
+      "amount": 100,
+      "description": "a straight, Ten to Ace",
+      "metadata": {
+        "lineno": 46,
+        "raw": "Seat 4: topcat9982 (small blind) showed [As Th] and won (100) with a straight, Ten to Ace"
+      }
+    },
+    {
+      "type": "muck",
+      "seatno": 5,
+      "player": "robi2909",
+      "position": "bb",
+      "card1": "9c",
+      "card2": "7h",
+      "metadata": {
+        "lineno": 47,
+        "raw": "Seat 5: robi2909 (big blind) mucked [9c 7h]"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 6,
+      "player": "shiftyill",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 48,
+        "raw": "Seat 6: shiftyill folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 7,
+      "player": "rohnet",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 49,
+        "raw": "Seat 7: rohnet folded before Flop (didn't bet)"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 8,
+      "player": "moneyblk",
+      "position": "",
+      "street": "river",
+      "bet": true,
+      "metadata": {
+        "lineno": 50,
+        "raw": "Seat 8: moneyblk folded on the River"
+      }
+    },
+    {
+      "type": "folded",
+      "seatno": 9,
+      "player": "nuway19",
+      "position": "",
+      "street": "preflop",
+      "bet": false,
+      "metadata": {
+        "lineno": 51,
+        "raw": "Seat 9: nuway19 folded before Flop (didn't bet)"
+      }
+    }
+  ],
+  "info": {
+    "room": "pokerstars",
+    "handid": "14336363838",
+    "currency": "$",
+    "pokertype": "holdem",
+    "limit": "nolimit",
+    "sb": 10,
+    "bb": 20,
+    "year": 2008,
+    "month": 1,
+    "day": 5,
+    "hour": 7,
+    "min": 46,
+    "sec": 56,
+    "timezone": "(ET)",
+    "gameno": "72748530",
+    "level": "i",
+    "gametype": "tournament",
+    "metadata": {
+      "lineno": 0,
+      "raw": "PokerStars Game #14336363838: Tournament #72748530, $5.00+$0.50 Hold'em No Limit - Level I (10/20) - 2008/01/05 - 07:46:56 (ET)"
+    },
+    "donation": 5,
+    "rake": 0.5,
+    "buyin": 5.5
+  },
+  "table": {
+    "tableno": 2,
+    "maxseats": 9,
+    "button": 3,
+    "metadata": {
+      "lineno": 1,
+      "raw": "Table '72748530 2' 9-max Seat #3 is the button"
+    }
+  },
+  "hero": "renniweg",
+  "holecards": {
+    "card1": "6h",
+    "card2": "Jc",
+    "metadata": {
+      "lineno": 14,
+      "raw": "Dealt to renniweg [6h Jc]"
+    }
+  },
+  "board": {
+    "card1": "5d",
+    "card2": "Kh",
+    "card3": "7s",
+    "card4": "Qs",
+    "card5": "Js",
+    "metadata": {
+      "lineno": 42,
+      "raw": "Board [5d Kh 7s Qs Js]"
+    }
+  }
+}
