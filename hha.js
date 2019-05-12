@@ -20,7 +20,7 @@ const analyzeHoldem = require('./lib/holdem')
  */
 exports = module.exports = function analyze(hand) {
   if (!hand.info) throw new Error('Hand is missing info')
-  if (hand.info.pokertype === 'holdem') return analyzeHoldem(hand)
+  if (hand.info.pokertype === 'holdem' || hand.info.pokertype === "omaha") return analyzeHoldem(hand)
 }
 
 exports.script     = require('./lib/script')
